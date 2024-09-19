@@ -1,0 +1,17 @@
+body {
+    background-color: #11122C;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weahterInfoContainer{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
