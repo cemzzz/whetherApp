@@ -1,0 +1,15 @@
+.currentCity {
+    width: 100px;
+    background-color: #414156;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.currentCity:hover {
+    background-color: #414956;
+    cursor: pointer;
+    font-weight: bold;
+}

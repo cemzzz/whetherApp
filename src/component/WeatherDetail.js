@@ -5,7 +5,7 @@ const WeatherDetail = ({weather}) => {
 
   // weather 또는 weather.sys가 없을 때 렌더링 방지
   if (!weather || !weather.sys) {
-    return <div>Loading weather details...</div>;
+    return <div>날씨 상세 정보를 불러오는 중입니다.</div>;
   }
   
   const sunrise = new Date(weather.sys.sunrise * 1000).toLocaleTimeString() //일출 시간
@@ -16,15 +16,15 @@ const WeatherDetail = ({weather}) => {
         <div className='weatherDetailBox'>
             <div className='weatherSubDetailBox'>
                 <div className='weatherInfoTitle'>⦁ 최저기온 : </div>
-                <div className='weatherInfoContent'>{weather?.main.temp_min}</div>
+                <div className='weatherInfoContent'>{weather?.main.temp_min} °C</div>
             </div>
             <div className='weatherSubDetailBox'>
                 <div className='weatherInfoTitle'>⦁ 최고기온 :</div>
-                <div className='weatherInfoContent'>{weather?.main.temp_max}</div>
+                <div className='weatherInfoContent'>{weather?.main.temp_max} °C</div>
             </div>
             <div className='weatherSubDetailBox'>
                 <div className='weatherInfoTitle'>⦁ 체감기온 : </div>
-                <div className='weatherInfoContent'>{weather?.main.feels_like}</div>
+                <div className='weatherInfoContent'>{weather?.main.feels_like} °C</div>
             </div>
             <div className='weatherSubDetailBox'>
                 <div className='weatherInfoTitle'>⦁ 일출 : </div>

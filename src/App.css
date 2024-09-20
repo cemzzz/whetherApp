@@ -12,6 +12,6 @@ body {
 
 .weahterInfoContainer{
     display: flex;
-    margin: 10px;
+    margin: 20px;
     gap: 10px;
 }

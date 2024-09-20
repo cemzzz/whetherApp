@@ -20,11 +20,11 @@ const WorldMap = ({setCity}) => {
         // 툴팁 색상 지정
         let polygonTemplate = polygonSeries.mapPolygons.template;
         polygonTemplate.tooltipText = "{name}";
-        polygonTemplate.fill = am4core.color("#74B266");
+        polygonTemplate.fill = am4core.color("#414156");
 
         // hover 이벤트
         let hs = polygonTemplate.states.create("hover");
-        hs.properties.fill = am4core.color("#367B25");
+        hs.properties.fill = am4core.color("#526156");
     
          // 국가 클릭 시 이벤트 핸들러
         polygonTemplate.events.on("hit", function(event) {
