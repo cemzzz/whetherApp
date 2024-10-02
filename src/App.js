@@ -7,7 +7,7 @@ import WorldMap from './component/WorldMap';
 import ClipLoader from "react-spinners/ClipLoader";
 
 
-const API_KEY = 'd7e33768b2951b19a65d2ddd0d939a8b';
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 function App() {
   const [weather, setWeather] = useState(null)
