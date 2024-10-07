@@ -45,8 +45,9 @@ https://bespoke-cheesecake-7b8af2.netlify.app/
  <div>지도에 보이는 국가 선택 시 해당 국가에 수도의 날씨 현황을 보여줍니다.</div>
 </div>
 <div>
-  <img width="100%" src="https://github.com/user-attachments/assets/4107a9a0-852b-4585-aa57-fb77e22bcb2d"/>
+  <img width="100%" src="https://github.com/user-attachments/assets/bfe59055-09b3-4f0b-8e02-050ea39041f7"/>
 </div>
+
 
 <div>
    <p>---------------------------------------------------------------------------------------------------------------------------------</p>
