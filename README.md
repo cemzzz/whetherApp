@@ -16,6 +16,8 @@
 # 홈페이지
 https://bespoke-cheesecake-7b8af2.netlify.app/
 
+<div>날씨 정보가 없는 일부 국가가 있어 불러오지 못하는 해당 국가의 수도 날씨 정보가 있습니다.!</div>
+
 # 개발 일지
 <div><a href="https://blog.naver.com/jhcemzzz/223588919256">개발 일지 - 1</a></div>
 <div><a href="https://blog.naver.com/jhcemzzz/223589207131">개발 일지 - 2</a></div>
@@ -34,8 +36,6 @@ https://bespoke-cheesecake-7b8af2.netlify.app/
 <div>
   <img width="70%" src="https://github.com/user-attachments/assets/e53b2bd4-a178-4d8c-a128-8202b2e0045b"/>
 </div>
-<div>날씨 정보가 없는 일부 국가가 있어 불러오지 못하는 해당 국가의 수도 날씨 정보가 있습니다.!</div>
-
 
 <div>
  <p>---------------------------------------------------------------------------------------------------------------------------------</p>
