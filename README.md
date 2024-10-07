@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# 날씨 api를 활용하여 각 국가별 수도의 날씨 현황을 확인할 수 있는 리액트 프로젝트입니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🛠
+<div>
+ <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+ <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+ <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>React</title><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"/></svg>
+</div>
 
-## Available Scripts
+ 
+# 📑 프로젝트 수행절차
+<li>개발 기간: 24/8/26 ~ 24/9/1</li>
+<li>개인 프로젝트</li>
 
-In the project directory, you can run:
+# 홈페이지
+https://bespoke-cheesecake-7b8af2.netlify.app/
 
-### `npm start`
+# 개발 일지
+<div><a href="https://blog.naver.com/jhcemzzz/223588919256">개발 일지 - 1</a></div>
+<div><a href="https://blog.naver.com/jhcemzzz/223589207131">개발 일지 - 2</a></div>
+<div><a href="https://blog.naver.com/jhcemzzz/223590165300">개발 일지 - 3</a></div>
+<div><a href="https://blog.naver.com/jhcemzzz/223590224687">개발 일지 - 4</a></div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# 📌 프로젝트 개요
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3> To-do List 홈페이지 </h3>
+<div>
+PC 및 모바일 환경 고려하여 웹페이지를 제작했습니다.
+</div>
+<div>
+  <img width="70%" src="https://github.com/user-attachments/assets/129e9056-9c6f-4a09-a443-45d990498054"/>
+ <img width="70%" src="https://github.com/user-attachments/assets/835cfdaa-78ba-4188-a854-23113a86494a"/>
+</div>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div>
+ <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h3> 할 일 추가 </h3>
+<div>
+ <div>할 일을 입력하고 enter키 입력이나 +버튼 클릭 시 할 일이 추가됩니다.</div>
+ <div>할 일을 추가하고 싶으면 최소 1글자라도 입력해야 추가되게 했습니다.</div>
+</div>
+<div>
+  <img width="100%" src="https://github.com/user-attachments/assets/4107a9a0-852b-4585-aa57-fb77e22bcb2d"/>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div>
+   <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
 
-### `npm run eject`
+<h3> 태그 추가 </h3>
+<div>
+ <div> 할 일과 마찬가지로 enter키 입력이나 +버튼 클릭 시 태그가 추가됩니다. </div>
+ <div> 태그의 경우 할 일 처럼 필수로 입력하지 않아도 됩니다.</div>
+</div>
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/291f9b78-9ddc-4bd1-851b-21c796958864"/>
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<div>
+   <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h3> 카테고리 분류  </h3>
+<div>
+ <div>카테고리 별로 모두, 진행 중, 완료별로 구분했습니다.</div>
+ <div>내가 추가한 할 일 리스트도 상태에 따라 카테고리가 분류되게 했습니다.</div>
+</div>
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/7e239ca8-e1aa-4220-a840-8bc91d3ea965"/>
+</div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<div>
+   <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h3> 완료 및 삭제</h3>
+<div>
+ <div> 내가 추가한 할 일 리스트를 완료 처리하거나 삭제할 수 있도록 했습니다.</div>
+</div>
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/fa51d569-e39c-46cf-9c3c-7dd7e8cb00bb"/>
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<div>
+   <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3> 예외 처리 </h3>
+<div>
+ <div>어느 탭에 있어도 할 일 추가 및 삭제가 가능하게 랜더링될 수 있도록 작업했습니다.</div>
+ <div></div>
+</div>
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/657ad463-1a8f-4ad2-b3ba-c34cf836958e"/>
+</div>
